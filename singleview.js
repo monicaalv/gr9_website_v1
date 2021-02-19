@@ -1,7 +1,7 @@
  const urlParams = new URLSearchParams(window.location.search);
  const id = urlParams.get("id");
 
- const medieurl = "https://tema7-2253.restdb.io/rest/media/";
+ const medieurl = "https://tema7-2253.restdb.io/media/";
  let vaerker;
  const myHeaders = {
 
@@ -34,8 +34,6 @@
 
 
  }
-
-
 
 
  function tilbageTilForside() {
