@@ -1,0 +1,59 @@
+body {
+    margin: 2vw;
+    text-align: center;
+}
+
+
+
+/*MIDLERTIDIG HEADER  */
+.nav_logo img {
+    width: 8vw;
+}
+
+
+/*    KNAPPER    */
+button {
+    border: solid 2px #fd00f4;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    width: 30vw;
+    height: 6vw;
+    margin: 1vw;
+}
+
+button:hover {
+    background: #fd00f4;
+
+}
+
+.valgt {
+    background-color: #fd00f4;
+
+}
+
+
+
+
+@media (min-width:600px) {
+    #liste {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2vw;
+    }
+
+    .nav_logo img {
+        width: 3vw;
+    }
+
+    /*    KNAPPER    */
+    button {
+        border: solid 2px #fd00f4;
+        background: black;
+        color: white;
+        border-radius: 5px;
+        width: 10vw;
+        height: 3vw;
+        margin: 1vw;
+    }
+}
