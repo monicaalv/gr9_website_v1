@@ -4,16 +4,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>forside</title>
+
     <link rel="stylesheet" href="common.css">
     <link rel="stylesheet" href="forside.css">
 </head>
 
 <body>
     <header>
-        <nav class="topnav">
+        <nav class="topnav" id="navigation">
             <div class="nav_logo">
-                <img src="" alt="">
+                <img src="billeder/logo_1.svg" alt="logo">
             </div>
             <div class="nav_links">
                 <a href="forside.html" class="active">Værker</a>
@@ -29,7 +33,9 @@
     </header>
 
     <main>
-
+        <div class="splash">
+            <img src="billeder/eros.jpg" src="splash">
+        </div>
         <section id="section">
             <h1>Lysværker 2021</h1>
 
@@ -48,21 +54,28 @@
         <section id="liste"></section>
         <template>
             <article class="vaerk">
-                <img class="billede" src="" alt="" width="100%">
-                <h2 class="navn"></h2>
-                <p class="lokation"></p>
+                <div class="hover_container">
+                    <img class="billede" src="" alt="">
+                    <div class="overlay">
+                        <h2 class="navn"></h2>
+                    </div>
+                </div>
+
             </article>
         </template>
+
 
     </main>
 
     <footer>
         <ul>
-            <li>Copyright</li>
-            <li>VNR nummer</li>
+            <li>© Copenhagen Light Festival</li>
+            <li>VNR nummer?</li>
             <li>Billeder af Christoffer Askman</li>
         </ul>
     </footer>
 
     <script src="forside.js"></script>
+    <script src="common.js"></script>
+
 </body></html>
