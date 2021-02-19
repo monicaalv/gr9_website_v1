@@ -1,5 +1,9 @@
-@media screen and (min-width: 768px) {
+body {
+  margin: 0;
+}
 
+
+<<<<<<< HEAD
     /* --------------------- NAVIGATION ------------------ */
 
     .topnav {
@@ -39,7 +43,47 @@
 article {
     margin-top: 5rem;
 }
+=======
 
+/* --------------------- NAVIGATION ------------------ */
+.topnav {
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+
+
+.topnav a {
+    display: none;
+    padding: 14px 35px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+
+  .topnav.responsive {
+    position: relative;
+    }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+>>>>>>> origin/main
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
 
 
 
@@ -55,3 +99,51 @@ footer {
 footer ul {
     list-style-type: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------- MEDIA Q -------------------- */
+
+@media screen and (min-width: 768px) {
+
+
+
+/* --------------------- NAVIGATION ------------------ */
+
+.topnav a {
+    float: right;
+    display: flex;
+}
+
+.topnav a:hover {
+}
+
+.topnav a.active {
+}
+
+.topnav a.icon {
+  display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
