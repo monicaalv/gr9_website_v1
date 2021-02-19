@@ -15,17 +15,34 @@
     </header>
 
     <main>
-        <h1>hej</h1>
 
+        <section id="section">
+            <h1> </h1>
+            <h1>Værker</h1>
 
-        <article>
+            <h2>Alle værker</h2>
+            <nav>
+                <button data-lokation="alle" class="valgt">Alle værker</button>
+                <button data-lokation="København K">København K</button>
+                <button data-lokation="København V">Vesterbro</button>
+                <button data-lokation="København S">Amager</button>
+                <button data-lokation="København SV">København SV</button>
+                <button data-lokation="Frederiksberg">Frederiksberg</button>
 
+            </nav>
+        </section>
 
-        </article>
+        <section id="liste"></section>
+        <template>
+            <article class="vaerk">
+                <img class="billede" src="" alt="" width="100%">
+                <h2 class="navn"></h2>
+                <p class="lokation"></p>
+            </article>
+        </template>
+
     </main>
 
     <footer></footer>
     <script src="forside.js"></script>
-</body>
-
-</html>
+</body></html>
