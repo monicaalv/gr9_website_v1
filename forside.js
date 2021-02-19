@@ -52,7 +52,7 @@
               klon.querySelector(".billede").alt = `Billede af ${vaerker.navn}`;
               klon.querySelector(".navn").textContent = vaerker.navn;
 
-              klon.querySelector(".vaerk").addEventListener("click", () => visDetaljer(vaerk));
+              klon.querySelector(".vaerk").addEventListener("click", () => visDetaljer(vaerker));
 
               dest.appendChild(klon);
           }
