@@ -17,7 +17,7 @@
     <header>
         <nav class="topnav" id="navigation">
             <div class="nav_logo">
-                <img src="" alt="">
+                <img src="billeder/logo_1.svg" alt="logo">
             </div>
             <div class="nav_links">
                 <a href="forside.html" class="active">Værker</a>
@@ -33,7 +33,9 @@
     </header>
 
     <main>
-
+        <div class="splash">
+            <img src="billeder/eros.jpg" src="splash">
+        </div>
         <section id="section">
             <h1>Lysværker 2021</h1>
 
@@ -52,11 +54,16 @@
         <section id="liste"></section>
         <template>
             <article class="vaerk">
-                <h2 class="navn"></h2>
-                <img class="billede" src="" alt="" width="100%">
+                <div class="hover_container">
+                    <img class="billede" src="" alt="">
+                    <div class="overlay">
+                        <h2 class="navn"></h2>
+                    </div>
+                </div>
 
             </article>
         </template>
+
 
     </main>
 
@@ -71,6 +78,4 @@
     <script src="forside.js"></script>
     <script src="common.js"></script>
 
-</body>
-
-</html>
+</body></html>
