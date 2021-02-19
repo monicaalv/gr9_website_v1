@@ -1,82 +1,9 @@
-<<<<<<< HEAD
 img {
     width: 100%;
 }
 
-/*//--------------navigation------------------//*/
-=======
-/* --------------------- NAVIGATION ------------------ */
-
->>>>>>> monica
-.topnav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
-.topnav .nav_links {
-    display: flex;
-<<<<<<< HEAD
-    float: center;
-    margin-top: 15px;
-    /*justify-content: space-between;*/
-=======
-    float: right;
-    margin-top: 15px;
-    justify-content: space-between;
->>>>>>> monica
-}
-
-.topnav .nav_links a {
-    text-decoration: none;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: black;
-    margin-right: 70px;
-    font-size: 20px;
-    z-index: 1000;
-}
-
-.nav_links a:hover {}
-
-.nav_logo img {
-    width: 28.5px;
-    float: left;
-    margin: 10px;
-}
-<<<<<<< HEAD
-
-main {
-    margin-top: 6rem;
-}
-
-
-=======
-}
 
 
 main {
     margin-top: 10rem;
-}
-
-
-
-
-
-
->>>>>>> monica
-/* --------------------- FOOTER ------------------- */
-
-footer {
-    text-align: center;
-<<<<<<< HEAD
-    margin-top: 10rem;
-=======
->>>>>>> monica
-}
-
-footer ul {
-    list-style-type: none;
 }
