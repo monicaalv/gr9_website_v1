@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 img {
     width: 100%;
 }
 
 /*//--------------navigation------------------//*/
+=======
+/* --------------------- NAVIGATION ------------------ */
+
+>>>>>>> monica
 .topnav {
     position: fixed;
     top: 0;
@@ -13,9 +18,15 @@ img {
 
 .topnav .nav_links {
     display: flex;
+<<<<<<< HEAD
     float: center;
     margin-top: 15px;
     /*justify-content: space-between;*/
+=======
+    float: right;
+    margin-top: 15px;
+    justify-content: space-between;
+>>>>>>> monica
 }
 
 .topnav .nav_links a {
@@ -35,17 +46,35 @@ img {
     float: left;
     margin: 10px;
 }
+<<<<<<< HEAD
 
 main {
     margin-top: 6rem;
 }
 
 
+=======
+}
+
+
+main {
+    margin-top: 10rem;
+}
+
+
+
+
+
+
+>>>>>>> monica
 /* --------------------- FOOTER ------------------- */
 
 footer {
     text-align: center;
+<<<<<<< HEAD
     margin-top: 10rem;
+=======
+>>>>>>> monica
 }
 
 footer ul {
