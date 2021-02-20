@@ -1,22 +1,19 @@
 body {
-    margin: 2vw;
     text-align: center;
 }
 
 
 
 /*MIDLERTIDIG HEADER  */
-.nav_logo img {
-    width: 8vw;
-}
+
 
 .splash {
     width: 100%;
     height: 100vh;
     background-image: url(billeder/eros.jpg);
     background-size: cover;
-    background-position: 42% 10%;
-    background-size: 1370px 837px, auto;
+    background-position: 48% 10%;
+    background-size: 1286px 798px, auto;
     background-repeat: no-repeat;
     max-width: none;
     position: relative;
@@ -100,9 +97,7 @@ article {
         grid-gap: 2vw;
     }
 
-    .nav_logo img {
-        width: 3vw;
-    }
+
 
     .splash {
         width: 100%;
@@ -129,9 +124,8 @@ article {
     .splash {
         width: 100%;
         height: 100vh;
-        background-image: url(splash.jpg);
         background-size: cover;
-        background-position: 23% 83%;
+        background-position: 51% 83%;
         max-width: none;
     }
 }
