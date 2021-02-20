@@ -10,6 +10,19 @@ body {
     width: 8vw;
 }
 
+.splash {
+    width: 100%;
+    height: 100vh;
+    background-image: url(billeder/eros.jpg);
+    background-size: cover;
+    background-position: 42% 10%;
+    background-size: 1370px 837px, auto;
+    background-repeat: no-repeat;
+    max-width: none;
+    position: relative;
+
+}
+
 
 /*    KNAPPER    */
 button {
@@ -91,6 +104,15 @@ article {
         width: 3vw;
     }
 
+    .splash {
+        width: 100%;
+        height: 100vh;
+        background-image: url(billeder/eros.jpg);
+        background-size: cover;
+        background-position: 48% 10%;
+        max-width: none;
+    }
+
     /*    KNAPPER    */
     button {
         border: solid 2px #fd00f4;
@@ -100,5 +122,16 @@ article {
         width: 10vw;
         height: 3vw;
         margin: 1vw;
+    }
+}
+
+@media (min-width:800px) {
+    .splash {
+        width: 100%;
+        height: 100vh;
+        background-image: url(splash.jpg);
+        background-size: cover;
+        background-position: 23% 83%;
+        max-width: none;
     }
 }
