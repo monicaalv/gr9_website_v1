@@ -1,5 +1,7 @@
 body {
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 h1 {
@@ -10,7 +12,7 @@ h1 {
 
 h2,
 p {
-    font-family: helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 img {

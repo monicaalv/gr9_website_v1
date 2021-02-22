@@ -1,7 +1,23 @@
 body {
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-size: 6rem;
+    font-weight: 500;
+    margin-bottom: 0vw;
+
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    margin-bottom: 10vw;
+    margin-top: 0;
+    font-weight: 100;
+}
 
 
 /*MIDLERTIDIG HEADER  */
@@ -87,23 +103,22 @@ body {
 
 /*    KNAPPER    */
 button {
-    border: solid 2px #fd00f4;
-    background: black;
-    color: white;
-    border-radius: 5px;
-    width: 30vw;
-    height: 6vw;
+    color: #113bc7;
+    border: none;
+    background-color: white;
+    width: 38vw;
+    height: 8vw;
     margin: 1vw;
+    font-size: 1rem;
+    text-transform: uppercase;
 }
 
 button:hover {
-    background: #fd00f4;
-
+    color: #ff23e5;
 }
 
 .valgt {
-    background-color: #fd00f4;
-
+    color: #ff23e5;
 }
 
 .hover_container {
@@ -180,11 +195,8 @@ article {
 
     /*    KNAPPER    */
     button {
-        border: solid 2px #fd00f4;
-        background: black;
-        color: white;
-        border-radius: 5px;
-        width: 10vw;
+        font-size: 0.9rem;
+        width: 13vw;
         height: 3vw;
         margin: 1vw;
     }
