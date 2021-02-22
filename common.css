@@ -17,8 +17,7 @@ header {
 .topnav {
     overflow: hidden;
     z-index: 9;
-    /*    background-color: #f5f5f5;
-    */
+    background-color: #000000;
 }
 
 .topnav a {
@@ -55,8 +54,8 @@ header {
 .nav_logo img {
     width: 11vw;
     position: absolute;
-    top: 2vw;
-    left: 2vw;
+    top: 0vw;
+    left: 0vw;
 }
 
 
