@@ -1,7 +1,7 @@
  const urlParams = new URLSearchParams(window.location.search);
  const id = urlParams.get("id");
- let longitute = 0;
- let lattitute = 0;
+ /*let longitute = 0;
+let lattitute = 0;*/
 
  const medieurl = "https://tema7-2253.restdb.io/media/";
  let vaerker;
@@ -18,8 +18,8 @@
          headers: myHeaders
      });
      vaerker = await JSONData.json();
-     longitute = 12.587376838067657;
-     lattitute = 55.67621767537181;
+     /* longitute = 12.587376838067657;
+ lattitute = 55.67621767537181;*/
      console.log("vaerker", vaerker);
      visVaerker();
  }
@@ -50,8 +50,8 @@
      console.log("vis kort");
      // The location of cph
      const cph = {
-         lat: lattitute,
-         lng: longitute
+         lat: 55.685965534649206,
+         lng: 12.566129411343242
      };
      // The map, centered at cph
      const map = new google.maps.Map(document.getElementById("googleMap"), {
