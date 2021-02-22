@@ -6,19 +6,15 @@ body {
 
 /*MIDLERTIDIG HEADER  */
 
-
-.splash {
+video {
     width: 100%;
+    top: 0;
+    left: 0;
     height: 100vh;
-    background-image: url(billeder/eros.jpg);
-    background-size: cover;
-    background-position: 48% 10%;
-    background-size: 1286px 798px, auto;
-    background-repeat: no-repeat;
-    max-width: none;
-    position: relative;
-
+    object-fit: cover;
 }
+
+
 
 
 /*    KNAPPER    */
@@ -99,13 +95,13 @@ article {
 
 
 
-    .splash {
+    video {
         width: 100%;
-        height: 100vh;
-        background-image: url(billeder/eros.jpg);
-        background-size: cover;
-        background-position: 48% 10%;
-        max-width: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        object-fit: cover;
     }
 
     /*    KNAPPER    */
