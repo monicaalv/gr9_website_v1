@@ -1,3 +1,9 @@
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
 h1 {
     font-family: 'Big Shoulders Inline Text', cursive;
     font-size: 4rem;
@@ -6,5 +12,42 @@ h1 {
 
 h2,
 p {
-    font-family: helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    width: 38vw;
+    padding-bottom: 4vw;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    margin: 6vw;
+}
+
+#section_1 {
+    margin-bottom: 13vw;
+}
+
+@media (min-width:600px) {
+    img {
+        width: 20vw;
+        padding-bottom: 0vw;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        margin: 1vw;
+    }
+
+    #section_1 {
+        margin-bottom: 7vw;
+    }
+
 }

@@ -51,6 +51,7 @@
               klon.querySelector(".billede").src = medieurl + vaerker.billede;
               klon.querySelector(".billede").alt = `Billede af ${vaerker.navn}`;
               klon.querySelector(".navn").textContent = vaerker.navn;
+              klon.querySelector(".kunstner").textContent = vaerker.kunstner;
 
               klon.querySelector(".vaerk").addEventListener("click", () => visDetaljer(vaerker));
 
