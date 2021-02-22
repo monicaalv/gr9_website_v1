@@ -59,7 +59,8 @@ html {
     line-height: 1.4;
 }
 
-main {
+main,
+footer {
     background: white;
     position: relative;
     padding: 1rem;
@@ -152,6 +153,16 @@ article {
 }
 
 
+footer {}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 1.8;
+}
 
 
 @media (min-width:600px) {
@@ -188,6 +199,11 @@ article {
         height: 3vw;
         margin: 1vw;
     }
+
+    footer {
+        font-size: 20px;
+    }
+
 }
 
 @media (min-width:800px) {
