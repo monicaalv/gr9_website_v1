@@ -1,9 +1,146 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    /*background-color: #3e2e36;*/
+}
+
 img {
     width: 100%;
+    margin-top: 4rem;
+}
+
+.topnav {
+    padding: 20px 35px;
+
+}
+
+h2,
+p {
+    margin-left: 2rem;
+}
+
+#googleMap {
+    width: 70%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15rem;
+
+}
+
+/*   ------- KNAPPER  ------------  */
+button {
+    color: #113bc7;
+    border: none;
+    background-color: white;
+    width: 28vw;
+    height: 5vw;
+    /* margin: 1vw;*/
+    font-size: 15px;
+    text-transform: uppercase;
+    position: absolute;
+    transition: .5s ease;
+    top: 70%;
+    left: 3%;
+    padding: 0;
+}
+
+button:hover {
+    color: #ff23e5;
+}
+
+.valgt {
+    color: #ff23e5;
+}
+
+/*--------------footer-------------*/
+
+footer {
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+footer ul {
+    list-style-type: none;
 }
 
 
 
-main {
-    margin-top: 10rem;
+@media (min-width: 600px) {
+
+    /* .vaerk {
+     display: flex;
+
+ }*/
+
+    img {
+        margin-left: 4rem;
+        width: 80%;
+
+        margin-top: 0;
+
+    }
+
+    button {
+        position: relative;
+        margin-top: 9rem;
+        margin-bottom: 1.5rem;
+        margin-left: 1.5rem;
+        width: 20vw;
+        font-size: 18px;
+    }
+
+    h2,
+    p {
+        text-align: left;
+        margin-left: 8rem;
+        margin-top: 3rem;
+    }
+
+    #googleMap {
+        width: 50%;
+        height: 300px;
+        margin-left: 38%;
+        margin-top: 10rem;
+    }
+
+    footer {
+        margin-top: 10rem;
+    }
+
+}
+
+@media (min-width: 900px) {
+
+    img {
+        width: 63%;
+        margin-left: 9rem;
+    }
+
+    button {
+        font-size: 20px;
+        margin-left: 4.5rem;
+        margin-bottom: 2rem;
+    }
+
+    h2,
+    p {
+        font-size: 40px;
+        margin-left: 12rem;
+    }
+
+    #googleMap {
+        display: block;
+        margin-left: 33%;
+        margin-right: auto;
+        width: 40%;
+        margin-top: 18rem;
+
+    }
+
+    footer {
+        margin-top: 15rem;
+        font-size: 23px;
+        margin-bottom: 3rem;
+    }
 }
