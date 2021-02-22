@@ -25,7 +25,7 @@ header {
     padding: 14px 35px;
     text-decoration: none;
     font-size: 20px;
-    color: #ffffff;
+    color: #5cf2ff;
     text-align: center;
     text-transform: uppercase;
 }
@@ -52,10 +52,11 @@ header {
 }
 
 .nav_logo img {
-    width: 11vw;
+    width: 10vw;
     position: absolute;
-    top: 0vw;
-    left: 0vw;
+    top: 0.5vw;
+    left: 0.5vw;
+    z-index: 99;
 }
 
 
@@ -104,8 +105,8 @@ footer ul {
 
 @media (min-width:900px) {
     .nav_logo img {
-        width: 3.8vw;
-        top: 1vw;
-        left: 1vw;
+        width: 3.4vw;
+        top: 0.3vw;
+        left: 0.5vw;
     }
 }
