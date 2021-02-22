@@ -151,10 +151,27 @@ button:hover {
 
 .navn {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 40px;
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-weight: 500;
     width: 50vw;
     position: absolute;
-    top: 45%;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.kunstner {
+    color: #ffffff;
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-weight: 500;
+    font-size: 35px;
+    width: 50vw;
+    position: absolute;
+    top: 55%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
