@@ -7,6 +7,16 @@ body {
     scroll-behavior: smooth;
 }
 
+.nav_logo img {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.nav_links a {
+    margin-top: 1rem;
+}
+
+
 /*TEKSTER*/
 h1 {
     font-family: 'Big Shoulders Inline Text', cursive;
