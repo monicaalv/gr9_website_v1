@@ -1,28 +1,49 @@
+/*GENERELT*/
 body {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: black;
 }
 
+/*TEKSTER*/
 h1 {
     font-family: 'Big Shoulders Inline Text', cursive;
     font-size: 6rem;
     font-weight: 500;
     margin-bottom: 0vw;
+    color: white;
 
 }
 
 h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8rem;
+    margin-bottom: 1vw;
+    margin-top: 0;
+    font-weight: 100;
+    color: white;
+
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7rem;
     margin-bottom: 10vw;
     margin-top: 0;
     font-weight: 100;
+    color: white;
 }
 
+/*INDHOLD*/
+#section {
+    z-index: 8;
+    position: relative;
+}
 
-/*MIDLERTIDIG HEADER  */
+/*SPLASH VIDEO */
 
-video {
+.splash video {
     width: 100%;
     top: 0;
     left: 0;
@@ -30,6 +51,7 @@ video {
     object-fit: cover;
 }
 
+/*EFFEKT SÅ MAN SCROLLER OP OVER FLASH*/
 @mixin coverer {
     width: 100%;
     height: 100vh;
@@ -77,10 +99,10 @@ html {
 
 main,
 footer {
-    background: white;
+    background: #000000;
     position: relative;
     padding: 1rem;
-    margin-top: 10vh;
+    margin-top: 0vh;
 
     &::before {
         content: "";
@@ -94,23 +116,15 @@ footer {
     }
 }
 
-body {
-    margin: 0;
-}
-
-
-
-
-
 /*    KNAPPER    */
 button {
-    color: #113bc7;
+    color: #5cf2ff;
     border: none;
-    background-color: white;
+    background-color: transparent;
     width: 38vw;
     height: 8vw;
     margin: 1vw;
-    font-size: 1rem;
+    font-size: 0.6rem;
     text-transform: uppercase;
 }
 
@@ -127,6 +141,7 @@ button:hover {
     width: 100%;
 }
 
+/*HOVER EFFEKT PÅ BILLEDERNE*/
 .billede {
     display: block;
     width: 100%;
@@ -152,10 +167,10 @@ button:hover {
 
 .navn {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 27px;
     font-family: 'Big Shoulders Inline Text', cursive;
     font-weight: 500;
-    width: 50vw;
+    width: 90vw;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -169,10 +184,10 @@ button:hover {
     color: #ffffff;
     font-family: 'Big Shoulders Inline Text', cursive;
     font-weight: 500;
-    font-size: 35px;
-    width: 50vw;
+    font-size: 22px;
+    width: 75vw;
     position: absolute;
-    top: 55%;
+    top: 56%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -180,13 +195,24 @@ button:hover {
     text-align: center;
 }
 
+/*INDHOLD*/
 article {
     margin: 2vw;
 }
 
+/*VIDEOBAGGRUND*/
+.baggrund video {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+}
 
-footer {}
 
+
+/*FOOTER*/
 footer {
     background-color: black;
     color: white;
@@ -198,12 +224,16 @@ footer {
 
 
 @media (min-width:600px) {
+
+    /*    INDHOLD*/
     #liste {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 2vw;
+        margin-top: 2vw;
     }
 
+    /*SPLASH*/
     .splash {
         width: 100%;
         height: 100vh;
@@ -223,24 +253,197 @@ footer {
 
     /*    KNAPPER    */
     button {
-        font-size: 0.9rem;
-        width: 13vw;
+        font-size: 0.6rem;
+        width: 20vw;
         height: 3vw;
-        margin: 1vw;
+        margin: 1.7vw;
+        margin-bottom: 2vw;
     }
 
+    /*FOOTER*/
     footer {
         font-size: 20px;
     }
 
+
+    /*    HOVER-EFFEKT PÅ BILLEDERNE */
+    .navn {
+        color: #ffffff;
+        font-size: 18px;
+        font-family: 'Big Shoulders Inline Text', cursive;
+        font-weight: 500;
+        width: 90vw;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .kunstner {
+        color: #ffffff;
+        font-family: 'Big Shoulders Inline Text', cursive;
+        font-weight: 500;
+        font-size: 15px;
+        width: 50vw;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+
+}
+
+@media (min-width:700px) {
+
+    /*    HOVER-EFFEKT PÅ BILLEDERNE*/
+    .navn {
+        font-size: 20px;
+        font-weight: 500;
+        width: 50vw;
+    }
+
+    .kunstner {
+        font-size: 18px;
+        width: 50vw;
+    }
+
+
 }
 
 @media (min-width:800px) {
+
+    /*    SPLASH*/
     .splash {
         width: 100%;
         height: 100vh;
         background-size: cover;
         background-position: 51% 83%;
         max-width: none;
+    }
+
+
+    /*    HOVER-EFFEKT PÅ BILLEDERNE*/
+    .navn {
+        color: #ffffff;
+        font-size: 24px;
+        font-family: 'Big Shoulders Inline Text', cursive;
+        font-weight: 500;
+        width: 50vw;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .kunstner {
+        color: #ffffff;
+        font-family: 'Big Shoulders Inline Text', cursive;
+        font-weight: 500;
+        font-size: 22px;
+        width: 50vw;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    /*KNAPPER*/
+    button {
+        font-size: 0.7rem;
+        width: 15vw;
+        height: 3vw;
+        margin: -0.3vw;
+        margin-bottom: 2vw;
+    }
+}
+
+
+@media (min-width:1000px) {
+
+    /*    HOVER-EFFEKT PÅ BILLEDERNE*/
+    .navn {
+        color: #ffffff;
+        font-size: 32px;
+        font-family: 'Big Shoulders Inline Text', cursive;
+        font-weight: 500;
+        width: 50vw;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .kunstner {
+        color: #ffffff;
+        font-family: 'Big Shoulders Inline Text', cursive;
+        font-weight: 500;
+        font-size: 27px;
+        width: 50vw;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    /*    KNAPPER*/
+    button {
+        font-size: 0.85rem;
+        width: 14.5vw;
+        height: 3vw;
+        margin: -0.3vw;
+        margin-bottom: 2vw;
+    }
+}
+
+@media (min-width:1200px) {
+
+    /*    HOVER-EFFEKT PÅ BILLEDERNE*/
+    .navn {
+        color: #ffffff;
+        font-size: 38px;
+        font-family: 'Big Shoulders Inline Text', cursive;
+        font-weight: 500;
+        width: 50vw;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .kunstner {
+        color: #ffffff;
+        font-family: 'Big Shoulders Inline Text', cursive;
+        font-weight: 500;
+        font-size: 27px;
+        width: 50vw;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
     }
 }
