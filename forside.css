@@ -39,7 +39,7 @@ h4 {
 
 /*MIDLERTIDIG HEADER  */
 
-video {
+.splash video {
     width: 100%;
     top: 0;
     left: 0;
@@ -94,10 +94,10 @@ html {
 
 main,
 footer {
-    background: white;
+    background: #000000;
     position: relative;
     padding: 1rem;
-    margin-top: 10vh;
+    margin-top: 0vh;
 
     &::before {
         content: "";
@@ -113,6 +113,7 @@ footer {
 
 body {
     margin: 0;
+    background-color: black;
 }
 
 
@@ -211,6 +212,15 @@ footer {
     font-weight: 200;
     font-size: 15px;
     line-height: 1.8;
+}
+
+.baggrund video {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
 }
 
 
