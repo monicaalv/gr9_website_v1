@@ -2,6 +2,8 @@
 <html lang="da">
 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Singleview</title>
@@ -10,11 +12,17 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+
     <header>
-        <nav class="topnav">
+        <!--//link, navigation, logo-->
+        <nav class="topnav" id="navigation">
 
             <div class="nav_links">
                 <a href="forside.html" class="active">Værker</a>
@@ -25,7 +33,12 @@
                 </a>
             </div>
         </nav>
-
+        <!--logo-->
+        <a href="forside.html">
+            <div class="nav_logo">
+                <img src="billeder/logo_neon.svg" alt="logo">
+            </div>
+        </a>
 
 
     </header>
@@ -35,21 +48,41 @@
 
 
     <main>
+        <!--VIDEO-BAGGRUND-->
+        <div class="baggrund">
+            <video playsinline id="baggrund" autoplay muted loop>
+                <source src="http://emiliekirkandersen.dk/kea/video-2.mp4">
+                Your browser does not support HTML5 video.
+            </video>
+            <div class="viewport-header">
+
+            </div>
+        </div>
+
         <button>Tilbage</button>
 
         <article class="vaerk">
             <div class="bilde">
+                <!--//bilde fra database-->
                 <img class="billede" src="" alt="" width="100%">
             </div>
             <div class="tekstBilde">
+                <!--filter fra database-->
                 <h2 class="navn"></h2>
-                <p class="lokation"></p>
-                <p class="adresse"></p>
+                <h3 class="kunstner"></h3>
+                <!--<p class="nationalitet"></p>-->
+
+                <h3 class="beskrivelseH3">Beskrivelse:</h3>
+                <p class="beskrivelse"></p>
+                <div class="lokationFlex">
+                    <h3 class="lokationH3">Lokation:</h3>
+                    <p class="lokation"></p>
+                </div>
             </div>
         </article>
 
 
-
+        <!--kort fra google-->
         <div id="googleMap"></div>
 
 
@@ -63,6 +96,8 @@
             <li>Billeder af Christoffer Askman</li>
         </ul>
     </footer>
+
+    <!-- API key til google map-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9ORoPKVGcJoPjPvVYup_PieR1piDiDwU&callback=initMap&libraries=&v=weekly" async>
 
     </script>
@@ -70,7 +105,7 @@
     <script src="common.js"></script>
 
 
-    <!-- map-->
+
 
 
 

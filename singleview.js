@@ -24,7 +24,7 @@ let lattitute = 0;*/
      visVaerker();
  }
 
-
+ ///henter data fra database og linker til DOM///
  function visVaerker() {
      console.log("vis værker");
 
@@ -32,8 +32,12 @@ let lattitute = 0;*/
      document.querySelector(".billede").src = medieurl + vaerker.billede;
      document.querySelector(".billede").alt = `Billede af ${vaerker.navn}`;
      document.querySelector(".navn").textContent = vaerker.navn;
+     document.querySelector(".kunstner").textContent = vaerker.kunstner;
+ /*    document.querySelector(".nationalitet").textContent = vaerker.nationalitet;*/
+     document.querySelector(".lokation").textContent = vaerker.lokation;
+     document.querySelector(".beskrivelse").textContent = vaerker.beskrivelse;
 
-
+     //tilbageknap//
      document.querySelector("button").addEventListener("click", tilbageTilForside);
 
 
@@ -42,7 +46,7 @@ let lattitute = 0;*/
 
 
 
- //map//
+ //map// lånt kode
 
 
  // Initialize and add the map
