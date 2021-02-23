@@ -120,7 +120,7 @@ button {
     width: 38vw;
     height: 8vw;
     margin: 1vw;
-    font-size: 1rem;
+    font-size: 0.6rem;
     text-transform: uppercase;
 }
 
@@ -212,6 +212,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 2vw;
+        margin-top: 2vw;
     }
 
     .splash {
@@ -233,23 +234,25 @@ footer {
 
     /*    KNAPPER    */
     button {
-        font-size: 0.9rem;
-        width: 13vw;
+        font-size: 0.6rem;
+        width: 20vw;
         height: 3vw;
-        margin: 1vw;
+        margin: 1.7vw;
+        margin-bottom: 2vw;
     }
 
-<<<<<<< HEAD
+
+
     footer {
         font-size: 20px;
     }
 
-=======
+
 
     /*    ARRAY */
     .navn {
         color: #ffffff;
-        font-size: 22px;
+        font-size: 18px;
         font-family: 'Big Shoulders Inline Text', cursive;
         font-weight: 500;
         width: 90vw;
@@ -276,7 +279,26 @@ footer {
         transform: translate(-50%, -50%);
         text-align: center;
     }
->>>>>>> mathilde
+
+
+}
+
+@media (min-width:700px) {
+
+    /*    ARRAY*/
+    .navn {
+        font-size: 20px;
+        font-weight: 500;
+        width: 50vw;
+
+    }
+
+    .kunstner {
+        font-size: 18px;
+        width: 50vw;
+
+
+    }
 }
 
 @media (min-width:800px) {
@@ -292,7 +314,7 @@ footer {
     /*    ARRAY*/
     .navn {
         color: #ffffff;
-        font-size: 32px;
+        font-size: 24px;
         font-family: 'Big Shoulders Inline Text', cursive;
         font-weight: 500;
         width: 50vw;
@@ -319,10 +341,58 @@ footer {
         transform: translate(-50%, -50%);
         text-align: center;
     }
+
+    button {
+        font-size: 0.7rem;
+        width: 15vw;
+        height: 3vw;
+        margin: -0.3vw;
+        margin-bottom: 2vw;
+    }
 }
 
 
 @media (min-width:1000px) {
+    .navn {
+        color: #ffffff;
+        font-size: 32px;
+        font-family: 'Big Shoulders Inline Text', cursive;
+        font-weight: 500;
+        width: 50vw;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .kunstner {
+        color: #ffffff;
+        font-family: 'Big Shoulders Inline Text', cursive;
+        font-weight: 500;
+        font-size: 27px;
+        width: 50vw;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    button {
+        font-size: 0.85rem;
+        width: 14.5vw;
+        height: 3vw;
+        margin: -0.3vw;
+        margin-bottom: 2vw;
+    }
+}
+
+@media (min-width:1200px) {
     .navn {
         color: #ffffff;
         font-size: 38px;
