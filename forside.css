@@ -1,13 +1,12 @@
+/*GENERELT*/
 body {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: black;
 }
 
-#section {
-    z-index: 8;
-    position: relative;
-}
-
+/*TEKSTER*/
 h1 {
     font-family: 'Big Shoulders Inline Text', cursive;
     font-size: 6rem;
@@ -36,8 +35,13 @@ h4 {
     color: white;
 }
 
+/*INDHOLD*/
+#section {
+    z-index: 8;
+    position: relative;
+}
 
-/*MIDLERTIDIG HEADER  */
+/*SPLASH VIDEO */
 
 .splash video {
     width: 100%;
@@ -47,6 +51,7 @@ h4 {
     object-fit: cover;
 }
 
+/*EFFEKT SÅ MAN SCROLLER OP OVER FLASH*/
 @mixin coverer {
     width: 100%;
     height: 100vh;
@@ -111,15 +116,6 @@ footer {
     }
 }
 
-body {
-    margin: 0;
-    background-color: black;
-}
-
-
-
-
-
 /*    KNAPPER    */
 button {
     color: #5cf2ff;
@@ -145,6 +141,7 @@ button:hover {
     width: 100%;
 }
 
+/*HOVER EFFEKT PÅ BILLEDERNE*/
 .billede {
     display: block;
     width: 100%;
@@ -198,22 +195,12 @@ button:hover {
     text-align: center;
 }
 
+/*INDHOLD*/
 article {
     margin: 2vw;
 }
 
-
-footer {}
-
-footer {
-    background-color: black;
-    color: white;
-    margin-top: 0px;
-    font-weight: 200;
-    font-size: 15px;
-    line-height: 1.8;
-}
-
+/*VIDEOBAGGRUND*/
 .baggrund video {
     width: 100%;
     position: absolute;
@@ -224,7 +211,21 @@ footer {
 }
 
 
+
+/*FOOTER*/
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
 @media (min-width:600px) {
+
+    /*    INDHOLD*/
     #liste {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -232,6 +233,7 @@ footer {
         margin-top: 2vw;
     }
 
+    /*SPLASH*/
     .splash {
         width: 100%;
         height: 100vh;
@@ -258,22 +260,13 @@ footer {
         margin-bottom: 2vw;
     }
 
-
+    /*FOOTER*/
     footer {
         font-size: 20px;
     }
 
 
-
-
-    footer {
-        font-size: 20px;
-    }
-
-
-
-
-    /*    ARRAY */
+    /*    HOVER-EFFEKT PÅ BILLEDERNE */
     .navn {
         color: #ffffff;
         font-size: 18px;
@@ -309,25 +302,24 @@ footer {
 
 @media (min-width:700px) {
 
-    /*    ARRAY*/
+    /*    HOVER-EFFEKT PÅ BILLEDERNE*/
     .navn {
         font-size: 20px;
         font-weight: 500;
         width: 50vw;
-
     }
 
     .kunstner {
         font-size: 18px;
         width: 50vw;
-
-
     }
 
 
 }
 
 @media (min-width:800px) {
+
+    /*    SPLASH*/
     .splash {
         width: 100%;
         height: 100vh;
@@ -337,7 +329,7 @@ footer {
     }
 
 
-    /*    ARRAY*/
+    /*    HOVER-EFFEKT PÅ BILLEDERNE*/
     .navn {
         color: #ffffff;
         font-size: 24px;
@@ -368,6 +360,7 @@ footer {
         text-align: center;
     }
 
+    /*KNAPPER*/
     button {
         font-size: 0.7rem;
         width: 15vw;
@@ -379,6 +372,8 @@ footer {
 
 
 @media (min-width:1000px) {
+
+    /*    HOVER-EFFEKT PÅ BILLEDERNE*/
     .navn {
         color: #ffffff;
         font-size: 32px;
@@ -409,6 +404,7 @@ footer {
         text-align: center;
     }
 
+    /*    KNAPPER*/
     button {
         font-size: 0.85rem;
         width: 14.5vw;
@@ -419,6 +415,8 @@ footer {
 }
 
 @media (min-width:1200px) {
+
+    /*    HOVER-EFFEKT PÅ BILLEDERNE*/
     .navn {
         color: #ffffff;
         font-size: 38px;
