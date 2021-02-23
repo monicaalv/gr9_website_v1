@@ -3,6 +3,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
+
 h1 {
     font-family: 'Big Shoulders Inline Text', cursive;
     font-size: 6rem;
@@ -14,6 +16,14 @@ h1 {
 h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8rem;
+    margin-bottom: 1vw;
+    margin-top: 0;
+    font-weight: 100;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7rem;
     margin-bottom: 10vw;
     margin-top: 0;
     font-weight: 100;
@@ -151,10 +161,10 @@ button:hover {
 
 .navn {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 27px;
     font-family: 'Big Shoulders Inline Text', cursive;
     font-weight: 500;
-    width: 50vw;
+    width: 90vw;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -168,10 +178,10 @@ button:hover {
     color: #ffffff;
     font-family: 'Big Shoulders Inline Text', cursive;
     font-weight: 500;
-    font-size: 35px;
-    width: 50vw;
+    font-size: 22px;
+    width: 75vw;
     position: absolute;
-    top: 55%;
+    top: 56%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -217,6 +227,38 @@ article {
         height: 3vw;
         margin: 1vw;
     }
+
+
+    /*    ARRAY */
+    .navn {
+        color: #ffffff;
+        font-size: 22px;
+        font-family: 'Big Shoulders Inline Text', cursive;
+        font-weight: 500;
+        width: 90vw;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .kunstner {
+        color: #ffffff;
+        font-family: 'Big Shoulders Inline Text', cursive;
+        font-weight: 500;
+        font-size: 15px;
+        width: 50vw;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
 }
 
 @media (min-width:800px) {
@@ -226,5 +268,70 @@ article {
         background-size: cover;
         background-position: 51% 83%;
         max-width: none;
+    }
+
+
+    /*    ARRAY*/
+    .navn {
+        color: #ffffff;
+        font-size: 32px;
+        font-family: 'Big Shoulders Inline Text', cursive;
+        font-weight: 500;
+        width: 50vw;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .kunstner {
+        color: #ffffff;
+        font-family: 'Big Shoulders Inline Text', cursive;
+        font-weight: 500;
+        font-size: 22px;
+        width: 50vw;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
+
+
+@media (min-width:1000px) {
+    .navn {
+        color: #ffffff;
+        font-size: 38px;
+        font-family: 'Big Shoulders Inline Text', cursive;
+        font-weight: 500;
+        width: 50vw;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .kunstner {
+        color: #ffffff;
+        font-family: 'Big Shoulders Inline Text', cursive;
+        font-weight: 500;
+        font-size: 27px;
+        width: 50vw;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
     }
 }
