@@ -4,12 +4,13 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     background-color: black;
+    scroll-behavior: smooth;
 }
 
 /*TEKSTER*/
 h1 {
     font-family: 'Big Shoulders Inline Text', cursive;
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 500;
     margin-bottom: 0vw;
     color: white;
@@ -210,7 +211,17 @@ article {
     object-fit: cover;
 }
 
+/*PIL NED*/
+.pil img {
+    width: 10vw;
+}
 
+.pil {
+    z-index: 8;
+    top: 94%;
+    left: 0%;
+    position: relative;
+}
 
 /*FOOTER*/
 footer {
@@ -221,6 +232,7 @@ footer {
     font-size: 15px;
     line-height: 1.8;
 }
+
 
 
 @media (min-width:600px) {
@@ -298,6 +310,17 @@ footer {
     }
 
 
+    /*    PIL NED */
+    .pil img {
+        width: 8vw;
+    }
+
+    .pil {
+        position: relative;
+        z-index: 8;
+        top: 106vw;
+        left: 0%;
+    }
 }
 
 @media (min-width:700px) {
@@ -313,6 +336,7 @@ footer {
         font-size: 18px;
         width: 50vw;
     }
+
 
 
 }
@@ -368,6 +392,16 @@ footer {
         margin: -0.3vw;
         margin-bottom: 2vw;
     }
+
+    .pil img {
+        width: 7vw;
+    }
+
+    .pil {
+        z-index: 8;
+        top: 79vw;
+        left: 0%;
+    }
 }
 
 
@@ -412,6 +446,16 @@ footer {
         margin: -0.3vw;
         margin-bottom: 2vw;
     }
+
+    .pil img {
+        width: 7vw;
+    }
+
+    .pil {
+        z-index: 8;
+        top: 62vw;
+        left: 0%;
+    }
 }
 
 @media (min-width:1200px) {
@@ -445,5 +489,15 @@ footer {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         text-align: center;
+    }
+
+    .pil img {
+        width: 7vw;
+    }
+
+    .pil {
+        z-index: 8;
+        top: 52vw;
+        left: 0%;
     }
 }
