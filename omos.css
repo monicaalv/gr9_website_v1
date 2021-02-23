@@ -69,6 +69,10 @@ video {
     object-fit: cover;
 }
 
+footer {
+    margin-top: 6vw;
+}
+
 @media (min-width:600px) {
 
     /*    INDHOLD*/
