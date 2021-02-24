@@ -256,6 +256,19 @@ footer {
     line-height: 1.8;
 }
 
+.icon img {
+    width: 6%;
+    margin-top: 25px;
+    margin-left: 22px;
+}
+
+.icon {
+    border-top: 1px solid #adacac;
+}
+
+footer p {
+    font-size: 12px;
+}
 
 
 /* KONTAKT */
@@ -408,8 +421,13 @@ a.send-btn:hover {
 
     /*FOOTER*/
     footer {
-        font-size: 20px;
+        font-size: 17px;
     }
+
+    .icon img {
+        width: 2%;
+    }
+
 
 
     /*    HOVER-EFFEKT PÅ BILLEDERNE */
