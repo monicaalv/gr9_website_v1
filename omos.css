@@ -37,6 +37,12 @@ p {
     color: white;
 }
 
+p {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: left;
+}
+
 /*INDHOLD*/
 img {
     width: 38vw;
@@ -65,12 +71,12 @@ video {
     top: 0;
     left: 0;
     width: 100%;
-    height: 170vh;
+    height: 155vh;
     object-fit: cover;
 }
 
 footer {
-    margin-top: 6vw;
+    margin-top: 20vw;
 }
 
 @media (min-width:600px) {
@@ -102,8 +108,12 @@ footer {
         top: 0;
         left: 0;
         width: 100%;
-        height: 110vh;
+        height: 133vh;
         object-fit: cover;
+    }
+
+    footer {
+        margin-top: 10vw;
     }
 
 }
