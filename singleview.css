@@ -7,36 +7,34 @@ body {
 /*VIDEO-BAGGRUND*/
 video {
     width: 100%;
-    position: absolute;
+    position: fixed;
     z-index: -1;
     top: 0;
     left: 0;
     width: 100%;
-    height: 400vh;
+    height: 100%;
     object-fit: cover;
 }
 
-img {
+.bilde img {
     width: 100%;
     margin-top: 13rem;
 }
 
-.topnav {
-    padding: 20px 35px;
-
-}
 
 .tekstBilde {
     color: white;
+    margin-right: 5vw;
+    line-height: 5vw;
 }
 
 .lokationFlex {
     display: flex;
 }
 
-h2,
-h3,
-p {
+.vaerk h2,
+.vaerk h3,
+.vaerk p {
     margin-left: 2rem;
     margin-right: 1rem;
 }
@@ -101,25 +99,9 @@ button:hover {
     color: #ff23e5;
 }
 
-.nav_logo img {
-    margin: 1rem;
-}
 
 
-/*--------------footer-------------*/
 
-footer {
-    text-align: center;
-    margin-top: 9rem;
-    margin-bottom: 3rem;
-    margin-right: 4rem;
-    color: white;
-
-}
-
-footer ul {
-    list-style-type: none;
-}
 
 
 
@@ -132,16 +114,16 @@ footer ul {
     /*VIDEO-BAGGRUND*/
     video {
         width: 100%;
-        position: absolute;
+        position: fixed;
         z-index: -1;
         top: 0;
         left: 0;
         width: 100%;
-        height: 400vh;
+        height: 100%;
         object-fit: cover;
     }
 
-    img {
+    .bilde img {
         margin-left: 4rem;
         width: 80%;
 
@@ -158,9 +140,9 @@ footer ul {
         font-size: 18px;
     }
 
-    h2,
-    h3,
-    p {
+    .vaerk h2,
+    .vaerk h3,
+    .vaerk p {
         text-align: left;
         margin-left: 8rem;
         margin-top: 3rem;
@@ -197,9 +179,7 @@ footer ul {
         margin-top: 8rem;
     }
 
-    footer {
-        margin-top: 10rem;
-    }
+
 
 }
 
@@ -208,23 +188,23 @@ footer ul {
     /*VIDEO-BAGGRUND*/
     video {
         width: 100%;
-        position: absolute;
+        position: fixed;
         z-index: -1;
         top: 0;
         left: 0;
         width: 100%;
-        height: 400vh;
+        height: 100%;
         object-fit: cover;
     }
 
-    img {
+    .bilde img {
         width: 63%;
-        margin-left: 9rem;
+        margin-left: 7vw;
     }
 
     button {
         font-size: 25px;
-        margin-left: 4.5rem;
+        margin-left: 4rem;
         margin-bottom: 2rem;
         background-color: black;
     }
@@ -247,33 +227,36 @@ footer ul {
         margin-top: 5rem;
     }
 
-    h3 {
+    .vaerk h3 {
         font-size: 25px;
-        margin-left: 11rem;
-        margin-right: 10rem;
+        margin-left: 9rem;
+        margin-right: -8rem;
     }
 
 
-    p {
+    .vaerk p {
         font-size: 23px;
-        margin-left: 11rem;
+        margin-left: 9rem;
         margin-right: 30rem;
     }
 
 
     #googleMap {
         display: block;
-        margin-left: 33%;
+        margin-left: 30%;
         margin-right: auto;
         width: 40%;
         height: 400px;
-        margin-top: 10rem;
+        margin-top: 5rem;
+        margin-bottom: 15vw;
 
     }
 
-    footer {
-        margin-top: 15rem;
-        font-size: 23px;
-        margin-bottom: 3rem;
+    .tekstBilde {
+        color: white;
+        margin-right: 5vw;
+        line-height: 3vw;
     }
+
+
 }

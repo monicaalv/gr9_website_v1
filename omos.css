@@ -6,20 +6,9 @@ body {
 
 }
 
-.nav_logo img {
-    margin-left: 1rem;
-    margin-top: 1rem;
-}
 
-.nav_links a {
-    margin-top: 1rem;
-}
 
-footer {
-    color: white;
-    margin-top: 10rem;
-    margin-bottom: 4rem;
-}
+
 
 /*TEKSTER */
 h1 {
@@ -31,17 +20,25 @@ h1 {
     margin-bottom: 4rem;
 }
 
+#section_1 h2 {
+    font-family: 'Big Shoulders Inline Text', cursive;
+    color: white;
+    text-align: left;
+    margin-left: 10vw;
+    font-size: 3rem;
+    font-weight: 400;
+
+}
 
 
-h2,
-p {
+#section_1 p {
     font-family: 'Open Sans', sans-serif;
     color: white;
     text-align: left;
     margin-left: 10vw;
 }
 
-p {
+#section_1 p {
     margin-left: 10vw;
     margin-right: 10vw;
     line-height: 5vw;
@@ -71,18 +68,15 @@ img {
 /*VIDEO-BAGGRUND*/
 video {
     width: 100%;
-    position: absolute;
+    position: fixed;
     z-index: -1;
     top: 0;
     left: 0;
     width: 100%;
-    height: 155vh;
+    height: 100%;
     object-fit: cover;
 }
 
-footer {
-    margin-top: 20vw;
-}
 
 
 @media (min-width:600px) {
@@ -102,7 +96,7 @@ footer {
     }
 
     h2,
-    p {
+    #section_1 p {
 
         color: white;
         text-align: left;
@@ -115,7 +109,7 @@ footer {
         margin-right: 31vw;
         line-height: 2vw;
     }*/
-    p {
+    #section_1 p {
         font-family: 'Open Sans', sans-serif;
         margin-left: 10vw;
         margin-right: 18vw;
@@ -151,24 +145,17 @@ footer {
     /*    VIDEO-BAGGRUND*/
     video {
         width: 100%;
-        position: absolute;
+        position: fixed;
         z-index: -1;
         top: 0;
         left: 0;
         width: 100%;
-        height: 200vh;
+        height: 100%;
         object-fit: cover;
     }
 
 
-    footer {
-        background-color: black;
-        color: white;
-        margin-top: 0px;
-        font-weight: 200;
-        font-size: 15px;
-        line-height: 1.8;
-    }
+
 
 }
 
@@ -180,11 +167,13 @@ footer {
         margin-left: 5rem;
     }
 
-    h2 {
-        padding-left: 3rem;
+    #section_1 h2 {
+        font-size: 4rem;
+        padding-left: 1rem;
+        margin-left: 5vw;
     }
 
-    p {
+    #section_1 p {
         margin-right: 43vw;
         margin-left: 10vw;
         line-height: 3vw;
@@ -192,24 +181,17 @@ footer {
         font-size: 20px;
     }
 
-    footer {
-        background-color: black;
-        color: white;
-        margin-top: 0;
-        font-weight: 200;
-        font-size: 17px;
-        line-height: 1.8;
-    }
+
 
     /*    VIDEO-BAGGRUND*/
     video {
         width: 100%;
-        position: absolute;
+        position: fixed;
         z-index: -1;
         top: 0;
         left: 0;
         width: 100%;
-        height: 230vh;
+        height: 100%;
         object-fit: cover;
     }
 }
