@@ -347,6 +347,20 @@ a.send-btn:hover {
 
 
 
+/*ANIMATION */
+.pulse {
+    animation: pulse_kf infinite ease-in 1s alternate-reverse;
+}
+
+@keyframes pulse_kf {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
 
 
 @media (min-width:600px) {
