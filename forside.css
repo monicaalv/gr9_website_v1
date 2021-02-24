@@ -348,7 +348,7 @@ footer {
     .pil {
         position: relative;
         z-index: 8;
-        top: 106vw;
+        top: 123vw;
         left: 0%;
     }
 }
@@ -522,12 +522,12 @@ footer {
     }
 
     .pil img {
-        width: 6vw;
+        width: 5vw;
     }
 
     .pil {
         z-index: 8;
-        top: 52vw;
+        top: 50vw;
         left: 0%;
     }
 }
