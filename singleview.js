@@ -3,7 +3,9 @@
  /*let longitute = 0;
 let lattitute = 0;*/
 
+ //Konstant som har url til vores fotos
  const medieurl = "https://tema7-2253.restdb.io/media/";
+ //Konstant  som har api-key
  let vaerker;
  const myHeaders = {
 
@@ -13,6 +15,7 @@ let lattitute = 0;*/
  console.log("ID", id);
  document.addEventListener("DOMContentLoaded", loadJSON);
 
+ //konstant JSONData skal hente oplysningerne fra restdb
  async function loadJSON() {
      const JSONData = await fetch(`https://tema7-2253.restdb.io/rest/lysfestival/${id}`, {
          headers: myHeaders
@@ -24,16 +27,16 @@ let lattitute = 0;*/
      visVaerker();
  }
 
- ///henter data fra database og linker til DOM///
+ ///linker til DOM///
  function visVaerker() {
      console.log("vis værker");
 
-
+/*indsætter indhold fra restdb*/
      document.querySelector(".billede").src = medieurl + vaerker.billede;
      document.querySelector(".billede").alt = `Billede af ${vaerker.navn}`;
      document.querySelector(".navn").textContent = vaerker.navn;
      document.querySelector(".kunstner").textContent = vaerker.kunstner;
- /*    document.querySelector(".nationalitet").textContent = vaerker.nationalitet;*/
+     /*    document.querySelector(".nationalitet").textContent = vaerker.nationalitet;*/
      document.querySelector(".lokation").textContent = vaerker.lokation;
      document.querySelector(".beskrivelse").textContent = vaerker.beskrivelse;
 

@@ -84,12 +84,13 @@ footer {
     margin-top: 20vw;
 }
 
+
 @media (min-width:600px) {
 
     /*    TEKSTER*/
 
     h1 {
-        margin-top: 7vw;
+        margin-top: 10vw;
     }
 
     h2 {
@@ -97,6 +98,7 @@ footer {
         font-family: 'Big Shoulders Inline Text', cursive;
         font-weight: 500;
         margin-bottom: 1vw;
+        margin-top: 8rem;
     }
 
     h2,
@@ -107,11 +109,18 @@ footer {
         margin-left: 5vw;
     }
 
-    p {
+    /*   p {
         font-family: 'Open Sans', sans-serif;
         margin-left: 35vw;
         margin-right: 31vw;
         line-height: 2vw;
+    }*/
+    p {
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 10vw;
+        margin-right: 18vw;
+        line-height: 4vw;
+        margin-top: 5vw;
     }
 
     #section_1 {
@@ -135,8 +144,61 @@ footer {
         margin: 1vw;
     }
 
+    /* #section_1 {
+     margin-bottom: 7vw;
+ }*/
+
+    /*    VIDEO-BAGGRUND*/
+    video {
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 200vh;
+        object-fit: cover;
+    }
+
+
+    footer {
+        background-color: black;
+        color: white;
+        margin-top: 0px;
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+}
+
+@media (min-width:800px) {
+
     #section_1 {
-        margin-bottom: 7vw;
+        margin-top: 3vw;
+        margin-bottom: 18vw;
+        margin-left: 5rem;
+    }
+
+    h2 {
+        padding-left: 3rem;
+    }
+
+    p {
+        margin-right: 43vw;
+        margin-left: 10vw;
+        line-height: 3vw;
+        margin-top: 2.5vw;
+        font-size: 20px;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        margin-top: 0;
+        font-weight: 200;
+        font-size: 17px;
+        line-height: 1.8;
     }
 
     /*    VIDEO-BAGGRUND*/
@@ -147,12 +209,7 @@ footer {
         top: 0;
         left: 0;
         width: 100%;
-        height: 155vh;
+        height: 230vh;
         object-fit: cover;
     }
-
-    footer {
-        margin-top: 10vw;
-    }
-
 }
