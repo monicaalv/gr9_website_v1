@@ -16,6 +16,9 @@
 
   // første funktion der kaldes efter DOM er loaded
   function start() {
+      //tilføjer klassen pulse på pilen
+      document.querySelector(".pil").classList.add("pulse");
+
       //konstant filterKnapper som er nav knapperne
       const filterKnapper = document.querySelectorAll("nav button");
       //når man trykker på et værk kommer man til funktionen filtrerVærker
