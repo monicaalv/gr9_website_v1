@@ -293,7 +293,7 @@ footer p {
     width: 400px;
     color: white;
     position: relative;
-    margin-bottom: 13vw;
+    margin-bottom: 25vw;
 }
 
 
@@ -477,6 +477,14 @@ a.send-btn:hover {
         z-index: 8;
         top: 123vw;
         left: 0%;
+    }
+
+    .form {
+        margin: 0 auto;
+        width: 400px;
+        color: white;
+        position: relative;
+        margin-bottom: 13vw;
     }
 }
 
