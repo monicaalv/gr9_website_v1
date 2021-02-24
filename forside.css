@@ -7,14 +7,7 @@ body {
     scroll-behavior: smooth;
 }
 
-.nav_logo img {
-    margin-left: 1rem;
-    margin-top: 1rem;
-}
 
-.nav_links .link:nth-child(1) {
-    margin-top: 2rem;
-}
 
 /*img {
     padding-top: 1rem;
@@ -250,29 +243,6 @@ article {
     position: relative;
 }
 
-/*FOOTER*/
-footer {
-    background-color: black;
-    color: white;
-    margin-top: 0px;
-    font-weight: 200;
-    font-size: 15px;
-    line-height: 1.8;
-}
-
-.icon img {
-    width: 6%;
-    margin-top: 25px;
-    margin-left: 22px;
-}
-
-.icon {
-    border-top: 1px solid #adacac;
-}
-
-footer p {
-    font-size: 12px;
-}
 
 
 /* KONTAKT */
@@ -381,6 +351,7 @@ a.send-btn:hover {
 
 @media (min-width:600px) {
 
+
     /*    INDHOLD*/
     #liste {
         display: grid;
@@ -424,14 +395,6 @@ a.send-btn:hover {
         margin-bottom: 2vw;
     }
 
-    /*FOOTER*/
-    footer {
-        font-size: 17px;
-    }
-
-    .icon img {
-        width: 2%;
-    }
 
 
 
