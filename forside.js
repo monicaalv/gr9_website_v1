@@ -8,9 +8,9 @@
 
   //sætter at når dokumentet er loaded skal man gå til funktionen start
   document.addEventListener("DOMContentLoaded", start)
-  //variabel som hedder værker
+  //laver variabel værker
   let vaerker;
-  //variabel som hedder filter som er lig med "alle"
+  //laver variabel filter som er lig med "alle"
   let filter = "alle";
 
 
@@ -19,7 +19,7 @@
       //tilføjer klassen pulse på pilen
       document.querySelector(".pil").classList.add("pulse");
 
-      //konstant filterKnapper som er nav knapperne
+      //laver konstant filterKnapper som er nav knapperne
       const filterKnapper = document.querySelectorAll("nav button");
       //når man trykker på et værk kommer man til funktionen filtrerVærker
       filterKnapper.forEach(knap => knap.addEventListener("click", filtrerVaerker));
@@ -53,9 +53,9 @@
   }
 
   function visVaerker() {
-      //konstant dest som er id'et liste på html
+      //laver konstant dest som er id'et liste på html
       const dest = document.querySelector("#liste");
-      //kontant template som er template på html
+      //laver kontant template som er <template> på html
       const template = document.querySelector("template").content;
 
       dest.textContent = "";
