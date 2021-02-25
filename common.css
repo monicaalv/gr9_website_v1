@@ -81,7 +81,7 @@ footer {
     font-weight: 200;
     font-size: 15px;
     line-height: 1.8;
-    height: 17vw;
+    height: 42vw;
 }
 
 footer p {
@@ -164,6 +164,11 @@ footer ul {
         left: 1.2vw;
         z-index: 99;
     }
+
+    /*    ---FOOTER---*/
+    footer {
+        height: 26vw;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -204,5 +209,9 @@ footer ul {
 
     .topnav {
         height: 4vw;
+    }
+
+    footer {
+        height: 17vw;
     }
 }
