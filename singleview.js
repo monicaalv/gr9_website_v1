@@ -31,7 +31,7 @@ let lattitute = 0;*/
  function visVaerker() {
      console.log("vis værker");
 
-/*indsætter indhold fra restdb*/
+     /*indsætter indhold fra restdb*/
      document.querySelector(".billede").src = medieurl + vaerker.billede;
      document.querySelector(".billede").alt = `Billede af ${vaerker.navn}`;
      document.querySelector(".navn").textContent = vaerker.navn;
@@ -75,6 +75,7 @@ let lattitute = 0;*/
 
 
 
+ /* ----------------tilbage til forside--------------*/
  function tilbageTilForside() {
      history.back();
  }
