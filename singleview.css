@@ -52,11 +52,12 @@ video {
     margin-top: 3rem;
 }
 
-.navn {
+.vaerk .navn {
 
     font-family: 'Big Shoulders Inline Text', cursive;
     font-weight: 500;
     font-size: 55px;
+    line-height: 10vh;
     margin-left: 2rem;
     margin-bottom: 0vw;
     margin-top: 4rem;
