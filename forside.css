@@ -7,13 +7,6 @@ body {
     scroll-behavior: smooth;
 }
 
-
-
-/*img {
-    padding-top: 1rem;
-}*/
-
-
 /*TEKSTER*/
 h1 {
     font-family: 'Big Shoulders Inline Text', cursive;
@@ -49,8 +42,11 @@ h4 {
     position: relative;
 }
 
-/*SPLASH VIDEO */
+article {
+    margin: 2vw;
+}
 
+/*SPLASH VIDEO */
 .splash video {
     width: 100%;
     top: 0;
@@ -216,11 +212,6 @@ button:hover {
     text-align: center;
 }
 
-/*INDHOLD*/
-article {
-    margin: 2vw;
-}
-
 /*VIDEOBAGGRUND*/
 .baggrund video {
     width: 100%;
@@ -243,9 +234,7 @@ article {
     position: relative;
 }
 
-
-
-/* KONTAKT */
+/* -------------KONTAKT------------- */
 .contact {
     width: 100%;
     height: 100%;
@@ -329,9 +318,7 @@ a.send-btn:hover {
 }
 
 
-
-
-/*ANIMATION */
+/*-------ANIMATION--------- */
 .pulse {
     animation: pulse_kf infinite ease-in 1s alternate-reverse;
 }
@@ -346,9 +333,8 @@ a.send-btn:hover {
     }
 }
 
-
+/*---------------MEDIA QUERIES---------------*/
 @media (min-width:600px) {
-
 
     /*    INDHOLD*/
     #liste {
@@ -392,9 +378,6 @@ a.send-btn:hover {
         margin: 1.7vw;
         margin-bottom: 2vw;
     }
-
-
-
 
     /*    HOVER-EFFEKT PÅ BILLEDERNE */
     .navn {
