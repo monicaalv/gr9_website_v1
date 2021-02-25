@@ -1,6 +1,9 @@
 body {
     margin: 0;
     cursor: default;
+    background-color: black;
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -10,16 +13,21 @@ body {
 header {
     position: fixed;
     width: 100%;
-    height: 10vw;
+    height: 14vw;
     z-index: 9;
     top: 0;
+    background-color: black;
 }
 
 .topnav {
     overflow: hidden;
     z-index: 9;
+
     background-color: #000000;
-    padding: 20px 35px;
+
+
+
+    height: 12vw;
 
 }
 
@@ -40,6 +48,8 @@ header {
 
 .topnav.responsive {
     position: relative;
+
+    height: 30vw;
 }
 
 .topnav.responsive .icon {
@@ -57,23 +67,38 @@ header {
 .nav_logo img {
     width: 10vw;
     position: absolute;
-    top: 0.5vw;
-    left: 0.5vw;
+    top: 2vw;
+    left: 2vw;
     z-index: 99;
 }
 
 /*
-.icon {
-    margin-top: -1vw;
-}
-
-.nav_links {
-    margin-top: 6vw;
+.nav_logo img {
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 */
 
+.nav_links .link:nth-child(1) {
+    margin-top: 2rem;
+}
 
 /* --------------------- FOOTER ------------------- */
+/*FOOTER*/
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+
+footer p {
+    font-size: 12px;
+}
 
 footer {
     text-align: center;
@@ -84,6 +109,16 @@ footer ul {
     padding: 0;
 }
 
+.icon img {
+    width: 6%;
+    margin-top: 25px;
+    padding: 1vw;
+}
+
+.icon {
+    border-top: 1px solid #adacac;
+}
+
 
 
 @media (min-width:600px) {
@@ -92,6 +127,16 @@ footer ul {
         top: 1vw;
         left: 1vw;
     }
+
+    /*FOOTER*/
+    footer {
+        font-size: 17px;
+    }
+
+    .icon img {
+        width: 2%;
+    }
+
 }
 
 
@@ -115,11 +160,45 @@ footer ul {
     }
 }
 
+@media (min-width:600px) {
+    .nav_links .link:nth-child(1) {
+        margin-top: 0rem;
+    }
+
+    .topnav {
+        overflow: hidden;
+        z-index: 9;
+        background-color: #000000;
+        height: 5vw;
+    }
+
+    header {
+        position: fixed;
+        width: 100%;
+        height: 5vw;
+        z-index: 9;
+        top: 0;
+        background-color: black;
+    }
+
+    .nav_logo img {
+        width: 10vw;
+        position: absolute;
+        top: 2vw;
+        left: 2vw;
+        z-index: 99;
+    }
+
+}
 
 @media (min-width:900px) {
     .nav_logo img {
-        width: 3.4vw;
-        top: 0.3vw;
-        left: 0.5vw;
+        width: 3.7vw;
+        top: 0.9vw;
+        left: 1vw;
+    }
+
+    .nav_links {
+        margin-top: 1vw;
     }
 }
