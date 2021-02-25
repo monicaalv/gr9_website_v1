@@ -330,6 +330,23 @@ a.send-btn:hover {
 
 
 
+/* PIL TIL TOPS */
+.hop {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    bottom: 20px;
+    right: 5px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #f1feff;
+}
+
+.hop:hover {
+    transform: scale(1.2);
+}
+
+
 
 /*ANIMATION */
 .pulse {
@@ -459,27 +476,6 @@ a.send-btn:hover {
     input {
         width: 400px;
     }
-
-
-
-    .hop {
-        position: fixed;
-        height: 50px;
-        width: 50px;
-        bottom: 20px;
-        right: 5px;
-        text-decoration: none;
-        font-size: 35px;
-        color: #f1feff;
-    }
-
-    .hop:hover {
-        transform: scale(1.2);
-    }
-
-
-
-
 }
 
 @media (min-width:700px) {
