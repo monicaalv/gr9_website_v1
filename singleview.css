@@ -1,3 +1,4 @@
+/* ----------------innhold--------------*/
 body {
     font-family: 'Open Sans', sans-serif;
     /*background-color: #3e2e36;*/
@@ -21,6 +22,7 @@ video {
     margin-top: 13rem;
 }
 
+/* ----------------tekster--------------*/
 
 .tekstBilde {
     color: white;
@@ -64,6 +66,7 @@ video {
 }
 
 
+/* ----------------kort--------------*/
 #googleMap {
     width: 70%;
     height: 250px;
@@ -107,7 +110,7 @@ footer p {
 }
 
 
-
+/*--------------------MEDIA QUERIES-----------------------------------*/
 
 @media (min-width: 600px) {
 
@@ -124,6 +127,8 @@ footer p {
         object-fit: cover;
     }
 
+    /* ----------------innhold--------------*/
+
     .bilde img {
         margin-left: 4rem;
         width: 80%;
@@ -132,6 +137,7 @@ footer p {
 
     }
 
+    /* ----------------button--------------*/
     button {
         position: relative;
         margin-top: 9rem;
@@ -140,6 +146,8 @@ footer p {
         width: 20vw;
         font-size: 18px;
     }
+
+    /* ----------------TEKSTER--------------*/
 
     .tekstBilde {
         margin-left: -6vw;
@@ -163,10 +171,7 @@ footer p {
         margin-left: -15vw;
     }
 
-    /* . vaerk .lokationH3 {
-     margin-left: 8rem;
 
- }*/
     .navn {
         font-family: 'Big Shoulders Inline Text', cursive;
         font-weight: 500;
@@ -207,17 +212,21 @@ footer p {
         object-fit: cover;
     }
 
+    /* ----------------innhold--------------*/
     .bilde img {
         width: 63%;
         margin-left: 10vw;
     }
 
+    /* ----------------button--------------*/
     button {
         font-size: 25px;
         margin-left: 4rem;
         margin-bottom: 2rem;
         background-color: black;
     }
+
+    /* ----------------tekster--------------*/
 
     .tekstBilde {
         margin-left: 1vw;
@@ -273,10 +282,6 @@ footer p {
 
     }
 
-    /*   .tekstBilde {
-       color: white;
-       margin-right: 5vw;
-       line-height: 3vw;
-   }*/
+
 
 }
