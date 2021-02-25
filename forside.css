@@ -318,8 +318,6 @@ a.send-btn:hover {
 }
 
 
-<<<<<<< HEAD
-
 /* PIL TIL TOPS */
 .hop {
     position: fixed;
@@ -339,9 +337,6 @@ a.send-btn:hover {
 
 
 /*ANIMATION */
-=======
-/*-------ANIMATION--------- */
->>>>>>> ny
 .pulse {
     animation: pulse_kf infinite ease-in 1s alternate-reverse;
 }
@@ -480,9 +475,6 @@ a.send-btn:hover {
         font-size: 18px;
         width: 50vw;
     }
-
-
-
 }
 
 @media (min-width:800px) {
@@ -495,7 +487,6 @@ a.send-btn:hover {
         background-position: 51% 83%;
         max-width: none;
     }
-
 
     /*    HOVER-EFFEKT PÅ BILLEDERNE*/
     .navn {
@@ -537,6 +528,7 @@ a.send-btn:hover {
         margin-bottom: 2vw;
     }
 
+    /*    PIL NED*/
     .pil img {
         width: 7vw;
     }
@@ -591,6 +583,7 @@ a.send-btn:hover {
         margin-bottom: 2vw;
     }
 
+    /*    PIL NED*/
     .pil img {
         width: 7vw;
     }
@@ -635,6 +628,7 @@ a.send-btn:hover {
         text-align: center;
     }
 
+    /*    PIL NED*/
     .pil img {
         width: 5vw;
     }
